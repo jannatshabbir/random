@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Login Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        .container {
+            display: flex;
+            border: 1px solid lightgray;
+            height: 600px;
+        }
+
+        .left {
+            width: 50%;
+            padding: 25px;
+            border-right: 2px solid lightgray;
+        }
+
+        .right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            width: 55px;
+        }
+
+        .left h1 {
+            margin-top: 150px;
+            font-size: 40px;
+        }
+
+        .blue {
+            color: #0866ff;
+        }
+
+        .promo {
+            width: 55%;
+            float: right;
+            margin-top: -180px;
+        }
+
+        .login {
+            width: 75%;
+        }
+
+        input {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 14px;
+            margin: 5px 0;
+            border: 1px solid lightgray;
+            border-radius: 25px;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px;
+            margin-top: 8px;
+            border-radius: 25px;
+            border: none;
+            background-color: #0866ff;
+            color: white;
+            font-size: 16px;
+        }
+
+        a {
+            color: #0866ff;
+            text-decoration: none;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .create {
+            background-color: white;
+            color: #0866ff;
+            border: 2px solid #0866ff;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Facebook Login Page - Output</h1>
+
+    <div class="container">
+
+        <div class="left">
+
+            <img class="logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png">
+
+            <h1>
+                Explore the<br>
+                things<br>
+                <span class="blue">you love.</span>
+            </h1>
+
+            <img class="promo"
+            src="https://about.fb.com/wp-content/uploads/2025/05/Facebook-Feed-1.png">
+
+        </div>
+
+        <div class="right">
+
+            <div class="login">
+
+                <h4>Log in to Facebook</h4>
+
+                <input type="text"
+                placeholder="Email address or mobile number">
+
+                <input type="password"
+                placeholder="Password">
+
+                <button type="button">Log in</button>
+
+                <p class="center">
+                    <a href="#">Forgotten password?</a>
+                </p>
+
+                <button class="create" type="button">
+                    Create new account
+                </button>
+
+                <p class="center">∞ Meta</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
